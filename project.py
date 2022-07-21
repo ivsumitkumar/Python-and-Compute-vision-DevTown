@@ -1,8 +1,11 @@
 import numpy as np
 import cv2
 
+#change the file path from "devtown_Bootcamp_Project/Soldiers_Walking_Trim.mp4" to "Soldiers_Walking_Trim.mp4"
 video = cv2.VideoCapture('devtown_Bootcamp_Project/Soldiers_Walking_Trim.mp4')
+#chnage the path from 'devtown_Bootcamp_Project/gettyimages-1175506973-612x612.jpg' to 'gettyimages-1175506973-612x612.jpg'
 image = cv2.imread('devtown_Bootcamp_Project/gettyimages-1175506973-612x612.jpg')
+
 while True:
     ret, frame = video.read()
     if ret:
